@@ -8,7 +8,7 @@ setup(
     description='An Opensource easy to use Machine Learning Library',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/your_library',
+    url='https://github.com/prasanna-muppidwar/AlgoKit',
     packages=find_packages(),
     install_requires=[
         'numpy',
