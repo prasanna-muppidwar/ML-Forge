@@ -1,7 +1,7 @@
 **AlgoKit** is an easy-to-use, open-source machine learning library designed to help you build machine learning models from scratch. It currently supports linear regression and evaluation metrics, with an intuitive interface for training and predicting models.
 
 ## Features
-- Linear Regression implemented with gradient descent.
+- Linear Model's implemented with ease of Understanding.
 - R-squared score calculation for evaluating models.
 - Simple and flexible API for integrating into any project.
 
