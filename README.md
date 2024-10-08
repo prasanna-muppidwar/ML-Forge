@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inter&weight=900&size=40&pause=1000&color=FB8500&center=true&vCenter=true&random=false&width=435&lines=AlgoKit!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inter&weight=900&size=40&pause=1000&color=48cae4&center=true&vCenter=true&random=false&width=435&lines=AlgoKit!)](https://git.io/typing-svg)
 
 ![Repository Visitors](https://komarev.com/ghpvc/?username=prasanna-muppidwar&color=blue&label=Repository+Visitors)
 
