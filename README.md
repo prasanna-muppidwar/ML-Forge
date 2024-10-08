@@ -13,24 +13,29 @@ To install directly from the GitHub repository:
 pip install git+https://github.com/prasanna-muppidwar/AlgoKit.git
 ```
 
-## Usage
-```
-from algokit import LinearRegression, r2_score
+## Docs 
+
+### Implement Linear Regression 
+
+``` bash 
 import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn import datasets
+from algokit.linear_regression import LinearRegression, r2_score
 
-# Example Data
-X = np.array([[1], [2], [3], [4], [5]])
-y = np.array([5, 7, 9, 11, 13])
 
-# Initialize and train the model
-model = LinearRegression(learning_rate=0.01, n_iters=1000)
-model.fit(X, y)
 
-# Predictions
-predictions = model.predict(X)
+X, y = datasets.make_regression(n_samples=100, n_features=1, noise=20, random_state=4)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1234)
 
-# Calculate R-squared
-score = r2_score(y, predictions)
-print("R2 Score:", score)
+regressor = LinearRegression(learning_rate=0.01, n_iters=1000)
+regressor.fit(X_train, y_train)
+predictions = regressor.predict(X_test)
+
+
+
+accu = r2_score(y_test, predictions)
+print("Accuracy:", accu)
+
 
 ```

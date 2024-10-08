@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from algokit import LogisticRegression, accuracy
+from algokit.logistic_regression import LogisticRegression
 
 class TestLogisticRegression(unittest.TestCase):
     def setUp(self):
