@@ -39,3 +39,23 @@ print("Accuracy:", accu)
 
 
 ```
+### train test split
+```bash 
+import numpy as np
+from algokit.linear_regression import LinearRegression, r2_score
+from algokit.train_test_split import train_test_split
+from sklearn import datasets
+
+X, y = datasets.make_regression(n_samples=100, n_features=1, noise=20, random_state=4)
+
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1234)
+regressor = LinearRegression(learning_rate=0.01, n_iters=1000)
+regressor.fit(X_train, y_train)
+
+predictions = regressor.predict(X_test)
+
+accu = r2_score(y_test, predictions)
+print("Accuracy (R² score):", accu)
+
+```
