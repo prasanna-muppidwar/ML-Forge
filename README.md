@@ -11,10 +11,10 @@
 
 ## Installation
 
-To install directly from the GitHub repository:
+Clone the repository directly from GitHub:
 
 ```bash
-!git clone "https://github.com/prasanna-muppidwar/AlgoKit.git"
+git clone "https://github.com/prasanna-muppidwar/AlgoKit.git"
 ```
 
 ## Docs 
@@ -28,7 +28,8 @@ The R² score (Coefficient of Determination) measures the proportion of the vari
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn import datasets
-from algokit.linear_regression import LinearRegression, r2_score
+from algokit.linear_regression import LinearRegression
+from algokit.metrics import r2_score
 
 
 
@@ -50,7 +51,8 @@ print("Accuracy:", accu)
 Train-test split is a technique used in machine learning to evaluate the performance of a model. It involves dividing the dataset into two parts: the training set and the test set. The model is trained on the training set, where it learns patterns from the data, and then evaluated on the test set to check how well it generalizes to unseen data. This helps in assessing the model’s accuracy and detecting overfitting or underfitting. Typically, 70-80% of the data is used for training, and 20-30% for testing.
 ```python
 import numpy as np
-from algokit.linear_regression import LinearRegression, r2_score
+from algokit.linear_regression import LinearRegression
+
 from algokit.train_test_split import train_test_split
 from sklearn import datasets
 

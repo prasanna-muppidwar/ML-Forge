@@ -1,13 +1,5 @@
 import numpy as np
 
-def r2_score(y_true, y_pred):
-    """
-    Calculate the R-squared score to evaluate the model performance.
-    """
-    corr_matrix = np.corrcoef(y_true, y_pred)
-    corr = corr_matrix[0, 1]
-    return corr ** 2
-
 class LinearRegression:
     def __init__(self, learning_rate=0.01, n_iters=1000):
         """
