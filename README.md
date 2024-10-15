@@ -1,8 +1,8 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inter&weight=900&size=40&pause=1000&color=48cae4&center=true&vCenter=true&random=false&width=435&lines=AlgoKit!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inter&weight=900&size=40&pause=1000&color=48cae4&center=true&vCenter=true&random=false&width=435&lines=ml-forge!)](https://git.io/typing-svg)
 
 ![Repository Visitors](https://komarev.com/ghpvc/?username=prasanna-muppidwar&color=blue&label=Repository+Visitors)
 
-**AlgoKit** is an easy-to-use, open-source machine learning library designed to help you build machine learning models from scratch. It currently supports linear regression and evaluation metrics, with an intuitive interface for training and predicting models.
+**ml-forge** is an easy-to-use, open-source machine learning library designed to help you build machine learning models from scratch. It currently supports linear regression and evaluation metrics, with an intuitive interface for training and predicting models.
 
 ## Features
 - Linear Model's implemented with ease of Understanding.
@@ -14,7 +14,7 @@
 Clone the repository directly from GitHub:
 
 ```bash
-git clone "https://github.com/prasanna-muppidwar/AlgoKit.git"
+git clone "https://github.com/prasanna-muppidwar/ml-forge.git"
 ```
 
 ## Docs 
@@ -28,8 +28,8 @@ The R² score (Coefficient of Determination) measures the proportion of the vari
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn import datasets
-from algokit.linear_regression import LinearRegression
-from algokit.metrics import r2_score
+from ml-forge.linear_regression import LinearRegression
+from ml-forge.metrics import r2_score
 
 
 
@@ -51,9 +51,9 @@ print("Accuracy:", accu)
 Train-test split is a technique used in machine learning to evaluate the performance of a model. It involves dividing the dataset into two parts: the training set and the test set. The model is trained on the training set, where it learns patterns from the data, and then evaluated on the test set to check how well it generalizes to unseen data. This helps in assessing the model’s accuracy and detecting overfitting or underfitting. Typically, 70-80% of the data is used for training, and 20-30% for testing.
 ```python
 import numpy as np
-from algokit.linear_regression import LinearRegression
+from ml-forge.linear_regression import LinearRegression
 
-from algokit.train_test_split import train_test_split
+from ml-forge.train_test_split import train_test_split
 from sklearn import datasets
 
 X, y = datasets.make_regression(n_samples=100, n_features=1, noise=20, random_state=4)

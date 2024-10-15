@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from algokit.linear_regression import LinearRegression, r2_score
+from ml-forge.linear_regression import LinearRegression, r2_score
 
 class TestLinearRegression(unittest.TestCase):
     def setUp(self):
