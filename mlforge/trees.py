@@ -95,3 +95,21 @@ class RandomForest:
         return X[indices], y[indices]
 
 
+"""def test_random_forest():
+    X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+    y = np.array([0, 0, 0, 1])
+
+    rf = DecisionTree()  # Increased n_trees for better generalization
+    rf.fit(X, y)
+
+    # Testing Predictions
+    predictions = rf.predict(X)
+    print("Predictions: ", predictions)
+
+    # Check if predictions are mostly correct
+    accuracy = np.sum(predictions == y) / len(y)
+    assert accuracy >= 0.75, f"Test failed! Accuracy: {accuracy}"  
+    print("Test passed!")
+
+if __name__ == "__main__":
+    test_random_forest()"""
