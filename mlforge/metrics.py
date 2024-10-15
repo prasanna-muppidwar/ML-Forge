@@ -9,7 +9,7 @@ def mean_squared_error(y_true, y_pred):
     squared_diff = (y_true - y_pred) ** 2
     return np.mean(squared_diff)
 
-def r2_score(y_true, y_pred):
+def r2score(y_true, y_pred):
     """
     Calculate the R-squared score to evaluate the model performance.
     """
