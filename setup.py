@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ml-forge',
+    name='mlforge',
     version='0.1.0',
     author='Prasanna Muppidwar',
     author_email='prasannamuppidwar16@gmail.com',
     description='An Opensource easy to use Machine Learning Library',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/prasanna-muppidwar/ml-forge',
+    url='https://github.com/prasanna-muppidwar/mlforge',
     packages=find_packages(),
     install_requires=[
         'numpy',

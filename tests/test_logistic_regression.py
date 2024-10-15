@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from ml-forge.logistic_regression import LogisticRegression
+from mlforge.logistic_regression import LogisticRegression
 
 class TestLogisticRegression(unittest.TestCase):
     def setUp(self):
