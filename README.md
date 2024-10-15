@@ -2,8 +2,7 @@
 
 ![Repository Visitors](https://komarev.com/ghpvc/?username=prasanna-muppidwar&color=blue&label=Repository+Visitors) 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=&pause=1000&color=67F7AB&width=435&lines=ML-Forge+is+a+Supervised+Learning+based+Machine+LearningLibrary!)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=&weight=900&size=28&duration=10000&pause=1000&color=67F7AB&width=435&lines=ML-Forge+is+a+Supervised+Learning+based+Machine+LearningLibrary!)](https://git.io/typing-svg)
 **ML Forge** is an easy-to-use, open-source machine learning library designed to help you build machine learning models from scratch. It currently supports linear regression and evaluation metrics, with an intuitive interface for training and predicting models.
 
 ## Features
